@@ -1,0 +1,5 @@
+PLL_Name	VGA_Controller:vga0|PLL_VGA:pll0|altpll:altpll_component|PLL_VGA_altpll:auto_generated|pll1
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+

@@ -1,0 +1,34 @@
+
+State Machine - |fp_GfxChip|stage
+Name stage.stall stage.draw_triangles stage.clear 
+stage.clear 0 0 0 
+stage.draw_triangles 0 1 1 
+stage.stall 1 0 1 
+
+State Machine - |fp_GfxChip|drawPolygon:draw0|sn2
+Name sn2.n sn2.p sn2.z 
+sn2.z 0 0 0 
+sn2.p 0 1 1 
+sn2.n 1 0 1 
+
+State Machine - |fp_GfxChip|drawPolygon:draw0|sn1
+Name sn1.n sn1.p sn1.z 
+sn1.z 0 0 0 
+sn1.p 0 1 1 
+sn1.n 1 0 1 
+
+State Machine - |fp_GfxChip|drawPolygon:draw0|sn0
+Name sn0.n sn0.p sn0.z 
+sn0.z 0 0 0 
+sn0.p 0 1 1 
+sn0.n 1 0 1 
+
+State Machine - |fp_GfxChip|drawPolygon:draw0|op_state
+Name op_state.complete op_state.draw_lo op_state.prep_lo op_state.adjust_lo op_state.draw_hi op_state.prep_hi op_state.init 
+op_state.init 0 0 0 0 0 0 0 
+op_state.prep_hi 0 0 0 0 0 1 1 
+op_state.draw_hi 0 0 0 0 1 0 1 
+op_state.adjust_lo 0 0 0 1 0 0 1 
+op_state.prep_lo 0 0 1 0 0 0 1 
+op_state.draw_lo 0 1 0 0 0 0 1 
+op_state.complete 1 0 0 0 0 0 1 

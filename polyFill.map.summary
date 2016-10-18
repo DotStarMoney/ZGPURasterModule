@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Dec 03 18:19:32 2014
+Quartus II 64-Bit Version : 11.1 Build 259 01/25/2012 SP 2 SJ Full Version
+Revision Name : polyFill
+Top-level Entity Name : fp_GfxChip
+Family : Cyclone IV E
+Total logic elements : 3,482
+    Total combinational functions : 3,413
+    Dedicated logic registers : 916
+Total registers : 916
+Total pins : 32
+Total virtual pins : 0
+Total memory bits : 2,021,040
+Embedded Multiplier 9-bit elements : 75
+Total PLLs : 1
